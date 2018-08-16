@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+    <apps>
+        <app>
+            <id>1</id>
+            <name type="rpg">游戏1</name>
+        </app>
+        <app>
+            <id>2</id>
+            <name type="arpg">游戏2</name>
+        </app>
+        <app>
+            <id>3</id>
+            <name type="arpg">游戏3</name>
+        </app>
+    </apps>
+</data>
