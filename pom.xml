@@ -14,5 +14,6 @@
         <module>fengw-dom4j</module>
         <module>fengw-jaxb</module>
         <module>fengw-test</module>
+        <module>fengw-executor</module>
     </modules>
 </project>
