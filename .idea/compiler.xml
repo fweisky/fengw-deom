@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fengw-annotation" />
+        <module name="fengw-dom4j" />
+        <module name="fengw-executor" />
+        <module name="fengw-jaxb" />
+        <module name="fengw-logback" />
+        <module name="fengw-quartz" />
+        <module name="fengw-test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="fengw-annotation" options="-Werror" />
+      <module name="fengw-dom4j" options="-Werror" />
+      <module name="fengw-executor" options="-Werror" />
+      <module name="fengw-jaxb" options="-Werror" />
+      <module name="fengw-logback" options="-Werror" />
+      <module name="fengw-quartz" options="-Werror" />
+      <module name="fengw-test" options="-Werror" />
+    </option>
+  </component>
+</project>
