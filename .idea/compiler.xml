@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="fengw-annotation" />
+        <module name="fengw-cucumber" />
         <module name="fengw-dom4j" />
         <module name="fengw-executor" />
         <module name="fengw-jaxb" />
@@ -20,6 +21,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="fengw-annotation" options="-Werror" />
+      <module name="fengw-cucumber" options="-Werror" />
       <module name="fengw-dom4j" options="-Werror" />
       <module name="fengw-executor" options="-Werror" />
       <module name="fengw-jaxb" options="-Werror" />

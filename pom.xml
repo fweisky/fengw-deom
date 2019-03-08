@@ -8,15 +8,20 @@
     <artifactId>fengw-demo</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
-    <modules>
-        <module>fengw-quartz</module>
-        <module>fengw-annotation</module>
-        <module>fengw-dom4j</module>
-        <module>fengw-jaxb</module>
-        <module>fengw-test</module>
-        <module>fengw-executor</module>
-        <module>fengw-logback</module>
-    </modules>
+
+    <properties>
+        <junit.version>4.12</junit.version>
+    </properties>
+
+    <dependencies>
+        <!-- JUnit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -32,4 +37,15 @@
             </plugin>
         </plugins>
     </build>
+
+    <modules>
+        <module>fengw-quartz</module>
+        <module>fengw-annotation</module>
+        <module>fengw-dom4j</module>
+        <module>fengw-jaxb</module>
+        <module>fengw-test</module>
+        <module>fengw-executor</module>
+        <module>fengw-logback</module>
+        <module>fengw-cucumber</module>
+    </modules>
 </project>
