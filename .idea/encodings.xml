@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fengw-annotation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fengw-cucumber" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fengw-dom4j" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fengw-executor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fengw-jaxb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fengw-logback" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fengw-quartz" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fengw-test" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
